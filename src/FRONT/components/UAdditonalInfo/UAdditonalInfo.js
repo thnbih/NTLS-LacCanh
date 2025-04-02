@@ -16,7 +16,7 @@ export const UAdditonalInfo = ({ lietSiDangHienThi }) => {
         }}
       >
         <div className={"additionalInfoHeader"}>AN TÁNG TẠI</div>
-        <div>Nghĩa trang Thành phố Hồ Chí Minh <br/>Nghĩa trang Lạc Cảnh</div>
+        <div>Nghĩa trang Thành phố Hồ Chí Minh (Nghĩa trang Lạc Cảnh)</div>
       </div>
       <div
         style={{
@@ -65,7 +65,7 @@ export const UAdditonalInfo = ({ lietSiDangHienThi }) => {
       >
         <div className={"additionalInfoHeader"}>LIÊN HỆ</div>
         <div className={""}>
-        Nghĩa trang Thành phố Hồ Chí Minh <br/>Nghĩa trang Lạc Cảnh  
+        Nghĩa trang Thành phố Hồ Chí Minh (Nghĩa trang Lạc Cảnh)  
         </div>
         <div className={""}>☎ 0283 7245220</div>
       </div>
