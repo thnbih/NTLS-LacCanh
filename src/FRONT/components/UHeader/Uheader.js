@@ -11,7 +11,7 @@ export const Uheader = () => {
             <div className={styles['name']}>
                 <p>Hệ thống tra cứu thông tin mộ liệt sĩ</p>
                 <h1>
-                    Nghĩa trang Liệt sĩ Lạc Cảnh
+                Nghĩa trang Thành phố Hồ Chí Minh (Nghĩa trang Lạc Cảnh)
                 </h1>
             </div>
         </div>
