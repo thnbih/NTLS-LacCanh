@@ -18,9 +18,9 @@ export const UPosition = ({ lietSiDangHienThi }) => {
         </div>
         <div
           className={"f3 items-center flex b"}
-          style={{ display: "flex", flex: 1 }}
+          style={{ display: "flex", flex: 1, fontFamily: "Arial" }}
         >
-          {capitalizeLetter(lietSiDangHienThi.hovaten)}
+          {lietSiDangHienThi.hovaten.toUpperCase()}
         </div>
         <div className={"f7"} style={{ display: "flex", flex: 1 }}>
           ({capitalizeLetter(lietSiDangHienThi.namsinh)} -{" "}
