@@ -26,7 +26,7 @@ const AdDsLietSi = ({
       return (
         <div className="bt  b--moon-gray dark-gray pa2 f8" key={lietsi.mahoso}>
           <div className="dib width3per">{lietsi.mahoso}</div>
-          <div className="dib  w-10 ">{titleCase(lietsi.ho)}</div>
+          <div className="dib  w-10 ">{titleCase(lietsi.hovaten)}</div>
           <div className="dib width5per">{titleCase(lietsi.ten)}</div>
           <div className="dib w-20">{titleCase(lietsi.quequan)}</div>
           <div className="dib w-10">{lietsi.namsinh}</div>
@@ -56,13 +56,13 @@ const AdDsLietSi = ({
             className="dib w-10 pointer grow hover-black"
             onClick={() => SortBy("hovaten")}
           >
-            &nbsp;&nbsp;&nbsp;HỌ
+            &nbsp;&nbsp;&nbsp;HỌ VÀ TÊN
           </strong>
           <strong
             className="dib width5per pointer grow hover-black"
             onClick={() => SortBy("ten")}
           >
-            &nbsp;&nbsp;&nbsp;TÊN
+            &nbsp;&nbsp;&nbsp;
           </strong>
           <strong
             className="dib w-20 pointer grow hover-black"
