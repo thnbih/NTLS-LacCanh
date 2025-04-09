@@ -40,7 +40,7 @@ export const UPosition = ({ lietSiDangHienThi }) => {
             width: "70%"
           }}
         >
-          <div className={"dib w-40 b"}>KHU</div>
+          <div className={"dib w-40 b"}>KHU SỐ</div>
           <div className={"dib w-40"}>{checkEmpty(lietSiDangHienThi.lo)}</div>
         </div>
         <div
@@ -55,7 +55,7 @@ export const UPosition = ({ lietSiDangHienThi }) => {
             width: "70%",
           }}
         >
-          <div className={"dib w-40 b"}>VỊ TRÍ</div>
+          <div className={"dib w-40 b"}>HÀNG SỐ</div>
           <div className={"dib w-40"}>{checkEmpty(lietSiDangHienThi.hang)}</div>
         </div>
         <div
@@ -70,7 +70,7 @@ export const UPosition = ({ lietSiDangHienThi }) => {
             width: "70%"
           }}
         >
-          <div className={"dib w-40 b"}>MỘ</div>
+          <div className={"dib w-40 b"}>MỘ SỐ</div>
           <div className={"dib w-40"}>{checkEmpty(lietSiDangHienThi.mo)}</div>
         </div>
         <div
